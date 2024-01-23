@@ -67,6 +67,8 @@
     <string name="more_options">More options</string>
     <string name="touch_and_hold_to_record">Touch and hold to record</string>
     <string name="record_message">Record voice message</string>
+
+    <!-- Testing StackSpot AI -->
     <string name="header_title">Título</string>
     <string name="header_subtitle">Subtítulo</string>
     <string name="close_button">fechar</string>
@@ -74,5 +76,12 @@
     <string name="left_button">Left Button</string>
     <string name="right_button">Right Button</string>
     <string name="body_text_sample">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in enim efficitur, venenatis leo non, consectetur nisl. Etiam tempor augue non risus dignissim, vel pellentesque eros tincidunt. Cras tristique arcu in elit rutrum, non dictum tellus vulputate. Pellentesque lacus quam, rhoncus ut tincidunt a, mattis ac lectus. Quisque posuere turpis ut aliquet rhoncus. Ut commodo, eros non efficitur porttitor, ligula felis iaculis eros, vitae eleifend neque arcu a diam. Nullam iaculis nunc nisi, nec aliquam urna porta ultrices. Maecenas gravida dapibus nisi vel tincidunt. In dapibus aliquam lobortis. Morbi a nunc nec nisi posuere facilisis.\n\nNunc aliquam vehicula orci a tempor. Curabitur elit massa, blandit non sodales at, vehicula convallis urna. Nam convallis ornare hendrerit. Maecenas aliquet hendrerit accumsan. Aliquam ante lectus, eleifend ac vulputate nec, rhoncus ac odio. Suspendisse sed nunc vel ex tempor tincidunt vel in nibh. Aenean et sagittis sem, id vestibulum lectus. Aenean dictum dui ac nisl tincidunt rutrum. Nullam nisl lorem, sodales non facilisis non, ultrices vitae urna. Proin elementum ac orci in maximus. Suspendisse velit ipsum, sodales non ornare et, porta semper tellus.</string>
+    <string name="help_title">Sobre Jetchat | testando StackSpot AI</string>
+    <string name="help_subitle">Resultado do experimento</string>
+    <string name="help_body_text">A conclusão do resultado dessas pesquisas é que você agora tem um modelo reutilizável e bem estruturado para criar custom views no Android. Esse modelo segue os princípios SOLID e pode ser facilmente adaptado para atender a diferentes requisitos de UI/UX em seus projetos. Além disso, a integração com o StackSpot AI portal permite que você expanda seu conhecimento e eficiência ao desenvolver interfaces de usuário personalizadas, garantindo que as melhores práticas e padrões de código sejam mantidos. Com esses recursos ao seu dispor, você está bem equipado para criar interfaces ricas e interativas que podem melhorar a experiência do usuário em seus aplicativos Android.</string>
+    <string name="help_left_icon_label">Concordo</string>
+    <string name="help_right_icon_label">Discordo</string>
+    <string name="help_left_message">Você concordou</string>
+    <string name="help_right_message">Você disncordou</string>
 
 </resources>
