@@ -19,10 +19,10 @@ class MfklHeaderCustomView @JvmOverloads constructor(
 
     init {
         LayoutInflater.from(context).inflate(R.layout.mfkl_header_custom_view, this, true)
-        backButton = findViewById(R.id.backButton)
-        closeButton = findViewById(R.id.closeButton)
-        titleView = findViewById(R.id.headerTitle)
-        subtitleView = findViewById(R.id.headerSubtitle)
+        backButton = findViewById(R.id.mfkl_header_cv_backButton)
+        closeButton = findViewById(R.id.mfkl_header_cv_closeButton)
+        titleView = findViewById(R.id.mfkl_header_cv_headerTitle)
+        subtitleView = findViewById(R.id.mfkl_header_cv_headerSubtitle)
     }
 
     fun setTitle(title: String) {
