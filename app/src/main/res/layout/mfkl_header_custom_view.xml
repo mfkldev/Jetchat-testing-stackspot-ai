@@ -9,6 +9,7 @@
         android:id="@+id/mfkl_header_cv_backButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:background="@android:color/transparent"
         android:src="@drawable/ic_mfkl_back"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,6 +20,7 @@
         android:id="@+id/mfkl_header_cv_closeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:background="@android:color/transparent"
         android:src="@drawable/ic_mfkl_close"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,14 +31,14 @@
         android:id="@+id/mfkl_header_cv_headerTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="12dp"
         android:text="@string/header_title"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/mfkl_header_cv_closeButton"
         app:layout_constraintStart_toEndOf="@id/mfkl_header_cv_backButton"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/mfkl_header_cv_backButton" />
 
     <TextView
         android:id="@+id/mfkl_header_cv_headerSubtitle"
