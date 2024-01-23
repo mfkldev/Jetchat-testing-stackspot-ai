@@ -34,4 +34,10 @@
             app:argType="string" />
     </fragment>
 
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.compose.jetchat.help.HelpFragment"
+        android:label="Help">
+    </fragment>
+
 </navigation>
