@@ -1,4 +1,4 @@
-//Example of how to use MfklHeaderCustomView component in xml layout
+<!-- Example of how to use MfklHeaderCustomView component in xml layout -->
 <com.example.compose.jetchat.customview.MfklHeaderCustomView
     android:id="@+id/customHeaderView"
     android:layout_width="match_parent"
