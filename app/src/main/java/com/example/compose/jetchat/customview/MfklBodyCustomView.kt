@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
-import com.bumptech.glide.Glide
 import com.example.compose.jetchat.R
 
 class MfklBodyCustomView @JvmOverloads constructor(
@@ -22,11 +21,8 @@ class MfklBodyCustomView @JvmOverloads constructor(
         textView = view.findViewById(R.id.mfkl_body_cv_textView)
     }
 
-    fun setImageUrl(url: String) {
-        Glide.with(context)
-            .load(url)
-            .centerCrop()
-            .into(imageView)
+    fun setImageResource(resId: Int) {
+        imageView.setImageResource(resId)
     }
 
     fun setText(text: CharSequence) {
