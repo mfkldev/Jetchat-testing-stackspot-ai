@@ -1,0 +1,14 @@
+//Example of how to use MfklHeaderCustomView component in xml layout
+<com.example.compose.jetchat.customview.MfklHeaderCustomView
+    android:id="@+id/customHeaderView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+//Example of how to use MfklHeaderCustomView component in kotlin code
+with(binding.customHeaderView) {
+     setTitle("Header component title")
+     setSubtitle("header component subtitle")
+     setBackButtonListener { //run action }
+     setCloseButtonListener { //run action }
+}

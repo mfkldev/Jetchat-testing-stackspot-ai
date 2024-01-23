@@ -1,0 +1,14 @@
+//Example of how to use MfklBottomCustomView component in xml layout
+<com.example.compose.jetchat.customview.MfklBottomCustomView
+    android:id="@+id/customFooterView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintBottom_toBottomOf="parent"/>
+
+//Example of how to use MfklBottomCustomView component in kotlin code
+with(binding.customFooterView) {
+     setLeftButtonText("Concordo")
+     setLeftButtonListener { //run action }
+     setRightButtonText("Discordo")
+     setRightButtonListener { //run action }
+}
