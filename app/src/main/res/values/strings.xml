@@ -71,5 +71,7 @@
     <string name="header_subtitle">Subtítulo</string>
     <string name="close_button">fechar</string>
     <string name="back_button">voltar</string>
+    <string name="left_button">Left Button</string>
+    <string name="right_button">Right Button</string>
 
 </resources>
