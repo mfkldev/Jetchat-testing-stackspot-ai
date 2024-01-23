@@ -57,7 +57,8 @@ class ConversationFragment : Fragment() {
                     },
                     onNavIconPressed = {
                         activityViewModel.openDrawer()
-                    }
+                    },
+                    onHelpIconPressed = { findNavController().navigate(R.id.nav_help) }
                 )
             }
         }

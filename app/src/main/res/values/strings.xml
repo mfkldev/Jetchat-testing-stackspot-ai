@@ -83,6 +83,6 @@
     <string name="help_left_icon_label">Concordo</string>
     <string name="help_right_icon_label">Discordo</string>
     <string name="help_left_message">Você concordou</string>
-    <string name="help_right_message">Você disncordou</string>
+    <string name="help_right_message">Você discordou</string>
 
 </resources>
