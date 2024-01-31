@@ -29,6 +29,7 @@ class ProfileViewModel : ViewModel() {
     private var userId: String = ""
 
     fun setUserId(newUserId: String?) {
+
         if (newUserId != userId) {
             userId = newUserId ?: meProfile.userId
         }

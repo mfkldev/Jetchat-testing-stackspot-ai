@@ -110,6 +110,10 @@ dependencies {
     implementation(libs.glide)
     annotationProcessor(libs.glide.compiler)
 
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.gson)
+    implementation(libs.squareup.okhttp3.loggingInterceptor)
+
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
     androidTestImplementation(libs.junit)
