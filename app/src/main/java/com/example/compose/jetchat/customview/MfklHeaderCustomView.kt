@@ -33,11 +33,11 @@ class MfklHeaderCustomView @JvmOverloads constructor(
         subtitleView.text = subtitle
     }
 
-    fun setLeftIconClick(listener: OnClickListener) {
+    fun setLeftIconButtonListener(listener: OnClickListener) {
         leftIcon.setOnClickListener(listener)
     }
 
-    fun setRightIconClick(listener: OnClickListener) {
+    fun setRightIconButtonListener(listener: OnClickListener) {
         rightIcon.setOnClickListener(listener)
     }
 }
