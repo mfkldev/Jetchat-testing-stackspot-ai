@@ -6,7 +6,7 @@
     android:padding="16dp">
 
     <ImageButton
-        android:id="@+id/mfkl_header_cv_backButton"
+        android:id="@+id/mfkl_header_cv_leftIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -17,7 +17,7 @@
         android:contentDescription="@string/back_button" />
 
     <ImageButton
-        android:id="@+id/mfkl_header_cv_closeButton"
+        android:id="@+id/mfkl_header_cv_rightIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -36,9 +36,9 @@
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/mfkl_header_cv_closeButton"
-        app:layout_constraintStart_toEndOf="@id/mfkl_header_cv_backButton"
-        app:layout_constraintTop_toBottomOf="@id/mfkl_header_cv_backButton" />
+        app:layout_constraintEnd_toStartOf="@id/mfkl_header_cv_rightIcon"
+        app:layout_constraintStart_toEndOf="@id/mfkl_header_cv_leftIcon"
+        app:layout_constraintTop_toBottomOf="@id/mfkl_header_cv_leftIcon" />
 
     <TextView
         android:id="@+id/mfkl_header_cv_headerSubtitle"
