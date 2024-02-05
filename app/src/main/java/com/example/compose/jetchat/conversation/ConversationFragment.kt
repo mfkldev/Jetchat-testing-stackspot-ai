@@ -26,11 +26,16 @@ import androidx.compose.ui.platform.ComposeView
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.findNavController
 import com.example.compose.jetchat.MainViewModel
 import com.example.compose.jetchat.R
 import com.example.compose.jetchat.data.exampleUiState
+import com.example.compose.jetchat.data.repositories.AnyFixRepository
 import com.example.compose.jetchat.theme.JetchatTheme
+import kotlinx.coroutines.launch
 
 class ConversationFragment : Fragment() {
 
@@ -42,6 +47,12 @@ class ConversationFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View = ComposeView(inflater.context).apply {
         layoutParams = LayoutParams(MATCH_PARENT, MATCH_PARENT)
+
+        val repository = AnyFixRepository()
+
+        lifecycleScope.launch {
+            repository.findAll()
+        }
 
         setContent {
             JetchatTheme {
