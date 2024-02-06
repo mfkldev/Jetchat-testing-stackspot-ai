@@ -7,7 +7,7 @@ import android.widget.Button
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.compose.jetchat.R
 
-class MfklBottomCustomView @JvmOverloads constructor(
+class MfklBottom @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : ConstraintLayout(context, attrs, defStyleAttr) {
 
@@ -15,7 +15,7 @@ class MfklBottomCustomView @JvmOverloads constructor(
     private val rightButton: Button
 
     init {
-        LayoutInflater.from(context).inflate(R.layout.mfkl_bottom_custom_view, this, true)
+        LayoutInflater.from(context).inflate(R.layout.mfkl_bottom, this, true)
         leftButton = findViewById(R.id.mfkl_bottom_cv_leftButton)
         rightButton = findViewById(R.id.mfkl_bottom_cv_rightButton)
     }

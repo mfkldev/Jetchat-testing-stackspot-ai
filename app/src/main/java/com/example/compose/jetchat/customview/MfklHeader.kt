@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.compose.jetchat.R
 
-class MfklHeaderCustomView @JvmOverloads constructor(
+class MfklHeader @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : ConstraintLayout(context, attrs, defStyleAttr) {
 
@@ -18,7 +18,7 @@ class MfklHeaderCustomView @JvmOverloads constructor(
     private val subtitleView: TextView
 
     init {
-        LayoutInflater.from(context).inflate(R.layout.mfkl_header_custom_view, this, true)
+        LayoutInflater.from(context).inflate(R.layout.mfkl_header, this, true)
         backButton = findViewById(R.id.mfkl_header_cv_backButton)
         closeButton = findViewById(R.id.mfkl_header_cv_closeButton)
         titleView = findViewById(R.id.mfkl_header_cv_headerTitle)

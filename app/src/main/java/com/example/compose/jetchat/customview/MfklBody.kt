@@ -8,7 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.example.compose.jetchat.R
 
-class MfklBodyCustomView @JvmOverloads constructor(
+class MfklBody @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : FrameLayout(context, attrs, defStyleAttr) {
 
@@ -16,7 +16,7 @@ class MfklBodyCustomView @JvmOverloads constructor(
     private val textView: TextView
 
     init {
-        val view = LayoutInflater.from(context).inflate(R.layout.mfkl_body_custom_view, this, true)
+        val view = LayoutInflater.from(context).inflate(R.layout.mfkl_body, this, true)
         imageView = view.findViewById(R.id.mfkl_body_cv_imageView)
         textView = view.findViewById(R.id.mfkl_body_cv_textView)
     }
