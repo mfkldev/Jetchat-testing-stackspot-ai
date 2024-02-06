@@ -12,15 +12,15 @@ class MfklHeader @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : ConstraintLayout(context, attrs, defStyleAttr) {
 
-    private val backButton: ImageButton
-    private val closeButton: ImageButton
+    private val leftIcon: ImageButton
+    private val rightIcon: ImageButton
     private val titleView: TextView
     private val subtitleView: TextView
 
     init {
         LayoutInflater.from(context).inflate(R.layout.mfkl_header, this, true)
-        backButton = findViewById(R.id.mfkl_header_cv_backButton)
-        closeButton = findViewById(R.id.mfkl_header_cv_closeButton)
+        leftIcon = findViewById(R.id.mfkl_header_cv_left_icon)
+        rightIcon = findViewById(R.id.mfkl_header_cv_right_icon)
         titleView = findViewById(R.id.mfkl_header_cv_headerTitle)
         subtitleView = findViewById(R.id.mfkl_header_cv_headerSubtitle)
     }
@@ -33,11 +33,11 @@ class MfklHeader @JvmOverloads constructor(
         subtitleView.text = subtitle
     }
 
-    fun setBackButtonListener(listener: OnClickListener) {
-        backButton.setOnClickListener(listener)
+    fun setLeftIconButtonListener(listener: OnClickListener) {
+        leftIcon.setOnClickListener(listener)
     }
 
-    fun setCloseButtonListener(listener: OnClickListener) {
-        closeButton.setOnClickListener(listener)
+    fun setRightIconButtonListener(listener: OnClickListener) {
+        rightIcon.setOnClickListener(listener)
     }
 }
